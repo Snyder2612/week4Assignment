@@ -72,3 +72,16 @@ for(i = 0; i < names.length; i++) {
     total += names[i].length;
 }
 console.log(total);
+
+function getFullName(firstName, lastName) {
+    let fullName = firstName + ' ' + lastName;
+    return fullName;
+}
+let firstName = 'Chris';
+let lastName = 'Snyder';
+let fullName = getFullName(firstName, lastName);
+
+console.log(fullName); 
+
+
+
